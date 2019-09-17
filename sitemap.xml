@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://innorev14.github.io/2019/09/17/list/</loc>
+    <loc>http://innorev14.github.io/2019/03/04/set/</loc>
     
-    <lastmod>2019-09-17T06:30:47.775Z</lastmod>
+    <lastmod>2019-09-17T06:55:20.911Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/03/04/tuple/</loc>
+    
+    <lastmod>2019-09-17T06:39:45.118Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/03/04/list/</loc>
+    
+    <lastmod>2019-09-17T06:36:03.575Z</lastmod>
     
   </url>
   
