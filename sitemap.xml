@@ -2,58 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://innorev14.github.io/2019/03/05/view/</loc>
+    <loc>http://innorev14.github.io/2019/03/05/list-comprehension/</loc>
     
-    <lastmod>2019-09-18T08:05:14.839Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://innorev14.github.io/2019/03/05/dictionary/</loc>
-    
-    <lastmod>2019-09-18T07:53:11.179Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://innorev14.github.io/2019/03/04/data-type/</loc>
-    
-    <lastmod>2019-09-17T07:14:19.010Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://innorev14.github.io/2019/03/04/list/</loc>
-    
-    <lastmod>2019-09-17T07:14:19.002Z</lastmod>
+    <lastmod>2019-09-18T09:12:17.588Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://innorev14.github.io/2019/03/04/operator/</loc>
     
-    <lastmod>2019-09-17T07:14:18.982Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://innorev14.github.io/2019/03/04/set/</loc>
-    
-    <lastmod>2019-09-17T07:14:18.974Z</lastmod>
+    <lastmod>2019-09-18T09:05:37.325Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://innorev14.github.io/2019/03/04/tuple/</loc>
     
-    <lastmod>2019-09-17T07:14:18.966Z</lastmod>
+    <lastmod>2019-09-18T09:05:37.301Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/03/04/list/</loc>
+    
+    <lastmod>2019-09-18T09:05:37.277Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://innorev14.github.io/2019/03/04/string/</loc>
     
-    <lastmod>2019-09-17T07:14:18.954Z</lastmod>
+    <lastmod>2019-09-18T09:05:37.241Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/03/04/set/</loc>
+    
+    <lastmod>2019-09-18T09:05:37.205Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/03/05/dictionary/</loc>
+    
+    <lastmod>2019-09-18T09:05:37.189Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/03/04/data-type/</loc>
+    
+    <lastmod>2019-09-18T09:05:37.177Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/03/05/view/</loc>
+    
+    <lastmod>2019-09-18T09:05:37.161Z</lastmod>
     
   </url>
   
