@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://innorev14.github.io/2019/03/07/first-class-function/</loc>
+    
+    <lastmod>2019-09-19T07:41:14.521Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/03/07/expression-of-binary-hexadecimal-number/</loc>
+    
+    <lastmod>2019-09-19T07:37:00.782Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://innorev14.github.io/2019/03/06/recursion/</loc>
     
-    <lastmod>2019-09-19T07:21:42.716Z</lastmod>
+    <lastmod>2019-09-19T07:31:09.125Z</lastmod>
     
   </url>
   
