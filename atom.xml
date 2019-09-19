@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://innorev14.github.io/"/>
-  <updated>2019-09-19T07:41:14.521Z</updated>
+  <updated>2019-09-19T14:27:48.942Z</updated>
   <id>http://innorev14.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>relation queryset 성능 향상</title>
+    <link href="http://innorev14.github.io/2019/09/19/relation-queryset-%EC%84%B1%EB%8A%A5-%ED%96%A5%EC%83%81/"/>
+    <id>http://innorev14.github.io/2019/09/19/relation-queryset-성능-향상/</id>
+    <published>2019-09-19T09:23:58.000Z</published>
+    <updated>2019-09-19T14:27:48.942Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="웹서비스에서-각-요청의-반응속도에서의-병목-원인"><a href="#웹서비스에서-각-요청의-반응속도에서의-병목-원인" class="headerlink" title="웹서비스에서 각 요청의 반응속도에서의 병목 원인"></a>웹서비스에서 각 요청의 반응속도에서의 병목 원인</h2><h3 id="1-데이터베이스-아주-중요"><a href="#1-데이터베이스-아주-중요" class="headerlink" title="1. 데이터베이스 : 아주 중요"></a>1. 데이터베이스 : 아주 중요</h3><blockquote><ul><li>DB로 전달/실행되는 SQL 갯수를 줄이고<blockquote><ul><li>절대적인 SQL갯수를 줄이고,</li><li>조회 SQL의 경우 <code>Join</code>을 통해 쿼리 갯수를 줄일 수 있다</li><li>각 SQL의 성능/처리속도 최적화가 필요하다</li></ul></blockquote></li></ul></blockquote><h3 id="2-로직의-복잡도-중요"><a href="#2-로직의-복잡도-중요" class="headerlink" title="2. 로직의 복잡도 : 중요"></a>2. 로직의 복잡도 : 중요</h3><h3 id="3-프로그래밍-언어의-종류-대개는-미미"><a href="#3-프로그래밍-언어의-종류-대개는-미미" class="headerlink" title="3. 프로그래밍 언어의 종류 : 대개는 미미"></a>3. 프로그래밍 언어의 종류 : 대개는 미미</h3><hr><h3 id="DB단-파이썬단-조인을-통한-조회쿼리-성능-향상이-가능하다"><a href="#DB단-파이썬단-조인을-통한-조회쿼리-성능-향상이-가능하다" class="headerlink" title="DB단/파이썬단 조인을 통한 조회쿼리 성능 향상이 가능하다"></a>DB단/파이썬단 조인을 통한 조회쿼리 성능 향상이 가능하다</h3><h4 id="•-ForeignKey-혹은-OneToOneField-관계"><a href="#•-ForeignKey-혹은-OneToOneField-관계" class="headerlink" title="• ForeignKey 혹은 OneToOneField 관계"></a>• ForeignKey 혹은 OneToOneField 관계</h4><h5 id="•-QuerySet-select-related"><a href="#•-QuerySet-select-related" class="headerlink" title="• QuerySet.select_related()"></a>• <code>QuerySet.select_related()</code></h5><h4 id="•-ManyToManyField-혹은-ForeignKey의-reverse-relation"><a href="#•-ManyToManyField-혹은-ForeignKey의-reverse-relation" class="headerlink" title="• ManyToManyField 혹은 ForeignKey의 reverse relation"></a>• ManyToManyField 혹은 ForeignKey의 reverse relation</h4><h5 id="•-QuerySet-prefetch-related"><a href="#•-QuerySet-prefetch-related" class="headerlink" title="• QuerySet.prefetch_related()"></a>• <code>QuerySet.prefetch_related()</code></h5>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;웹서비스에서-각-요청의-반응속도에서의-병목-원인&quot;&gt;&lt;a href=&quot;#웹서비스에서-각-요청의-반응속도에서의-병목-원인&quot; class=&quot;headerlink&quot; title=&quot;웹서비스에서 각 요청의 반응속도에서의 병목 원인&quot;&gt;&lt;/a&gt;웹서비스에서 각
+      
+    
+    </summary>
+    
+    
+      <category term="django" scheme="http://innorev14.github.io/categories/django/"/>
+    
+    
+      <category term="django" scheme="http://innorev14.github.io/tags/django/"/>
+    
+      <category term="database" scheme="http://innorev14.github.io/tags/database/"/>
+    
+  </entry>
   
   <entry>
     <title>first class function</title>
@@ -551,38 +579,6 @@
       <category term="python" scheme="http://innorev14.github.io/tags/python/"/>
     
       <category term="operator" scheme="http://innorev14.github.io/tags/operator/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>data type</title>
-    <link href="http://innorev14.github.io/2019/03/04/data-type/"/>
-    <id>http://innorev14.github.io/2019/03/04/data-type/</id>
-    <published>2019-03-04T04:39:56.000Z</published>
-    <updated>2019-09-18T09:05:37.177Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>파이썬의 문자열은 변경불가능 객체(imutable)이다</li></ul><p>파이썬은 다음과 같은 형식으로 표현이 가능하다.</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'peple : &#123;&#125;, &#123;&#125;'</span>.format(b,a)</span><br><span class="line"><span class="string">'people : mark, john'</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">f'people : <span class="subst">&#123;b&#125;</span>, <span class="subst">&#123;a&#125;</span>'</span></span><br><span class="line"><span class="string">'people : mark, john'</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'people : %s, %s'</span> % (b, a)</span><br><span class="line"><span class="string">'people : mark, john'</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'people : &#123;first&#125;, &#123;last&#125;'</span>.format(first=b, last=a)</span><br><span class="line"><span class="string">'people : mark, john'</span></span><br></pre></td></tr></table></figure><h1 id="Data-Type"><a href="#Data-Type" class="headerlink" title="Data Type"></a>Data Type</h1><p>data type - numbers</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>a=<span class="number">10</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b=<span class="number">2.718</span></span><br></pre></td></tr></table></figure><p>data type - boolean</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>c=<span class="literal">True</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d=<span class="literal">False</span></span><br></pre></td></tr></table></figure><p>data type - string</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>e=<span class="string">"abcde"</span></span><br></pre></td></tr></table></figure><p>data structure - list</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>li=[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>li2=[]</span><br></pre></td></tr></table></figure><p>data structure - tuple</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>tu=(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>tu2=()</span><br></pre></td></tr></table></figure><p>data structure - set</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>s=set([<span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">3</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s=set()</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s</span><br><span class="line">set()</span><br></pre></td></tr></table></figure><p>data structure - dictionary</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>dic=&#123;<span class="string">'a'</span> : <span class="number">1</span>, <span class="string">'b'</span> : <span class="number">2</span>, <span class="string">'c'</span> : <span class="number">3</span>, <span class="string">'d'</span> : <span class="number">4</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>dic2=&#123;&#125;</span><br></pre></td></tr></table></figure><p>operator</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">10</span>/<span class="number">33.3333333333333335</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">10</span>//<span class="number">33</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">2</span>**<span class="number">24</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">2</span>**<span class="number">416</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;파이썬의 문자열은 변경불가능 객체(imutable)이다&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;파이썬은 다음과 같은 형식으로 표현이 가능하다.&lt;/p&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="python" scheme="http://innorev14.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="http://innorev14.github.io/tags/python/"/>
-    
-      <category term="datatype" scheme="http://innorev14.github.io/tags/datatype/"/>
     
   </entry>
   
