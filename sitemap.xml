@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://innorev14.github.io/2019/03/05/routine-of-function/</loc>
+    
+    <lastmod>2019-09-19T03:37:29.897Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/03/05/unique-operator-of-python/</loc>
+    
+    <lastmod>2019-09-19T03:30:20.748Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/03/05/boolean/</loc>
+    
+    <lastmod>2019-09-19T03:15:28.988Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://innorev14.github.io/2019/03/05/list-comprehension/</loc>
     
-    <lastmod>2019-09-18T09:12:17.588Z</lastmod>
+    <lastmod>2019-09-18T09:16:12.412Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/03/04/hello-world/</loc>
+    
+    <lastmod>2019-09-18T09:14:42.720Z</lastmod>
     
   </url>
   
@@ -61,13 +89,6 @@
     <loc>http://innorev14.github.io/2019/03/05/view/</loc>
     
     <lastmod>2019-09-18T09:05:37.161Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://innorev14.github.io/2019/09/10/hello-world/</loc>
-    
-    <lastmod>2019-09-10T07:15:28.129Z</lastmod>
     
   </url>
   
