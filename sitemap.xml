@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://innorev14.github.io/2019/09/20/seleinum/</loc>
+    <loc>http://innorev14.github.io/2019/09/19/relation-queryset-%EC%84%B1%EB%8A%A5-%ED%96%A5%EC%83%81/</loc>
     
-    <lastmod>2019-09-19T15:54:06.578Z</lastmod>
+    <lastmod>2019-09-21T01:39:43.018Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://innorev14.github.io/2019/09/19/relation-queryset-%EC%84%B1%EB%8A%A5-%ED%96%A5%EC%83%81/</loc>
+    <loc>http://innorev14.github.io/2019/07/09/requests-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/</loc>
     
-    <lastmod>2019-09-19T14:27:48.942Z</lastmod>
+    <lastmod>2019-09-20T04:27:58.951Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/07/09/crawling/</loc>
+    
+    <lastmod>2019-09-20T04:01:41.001Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://innorev14.github.io/2019/09/20/seleinum/</loc>
+    
+    <lastmod>2019-09-19T15:54:06.578Z</lastmod>
     
   </url>
   
