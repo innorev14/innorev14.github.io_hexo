@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://innorev14.github.io/2019/03/07/binary-search/</loc>
+    
+    <lastmod>2019-10-24T05:49:45.358Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://innorev14.github.io/2019/10/23/django-signal/</loc>
     
-    <lastmod>2019-10-24T04:25:31.968Z</lastmod>
+    <lastmod>2019-10-24T05:47:56.421Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>http://innorev14.github.io/2019/03/08/Bit-Operation/</loc>
     
     <lastmod>2019-10-03T12:48:18.322Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://innorev14.github.io/2019/03/07/binary-search/</loc>
-    
-    <lastmod>2019-10-03T12:30:26.149Z</lastmod>
     
   </url>
   
